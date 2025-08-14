@@ -40,7 +40,7 @@ public class Main {
         width = scanner.nextDouble();
         System.out.println("yükseklik değerini giriniz");
         height = scanner.nextDouble();
-        if (width<0&&height<0){
+        if (width<0||height<0){
             return -1;
         }
         return width*height;
